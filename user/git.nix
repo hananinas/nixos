@@ -5,7 +5,7 @@
       enable = true;
       background = "dark";
     };
-    userName = "Daniel Chesters";
-    userEmail = "codeberg.org@coin-coin.xyz";
+    userName = "hananinas";
+    userEmail = "hanani.nas@gmail.com";
   };
 }

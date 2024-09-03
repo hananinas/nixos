@@ -7,10 +7,6 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    nvchad-config = {
-      url = "git+https://codeberg.org/daniel_chesters/nvchad_config";
-      flake = false;
-    };
   };
 
   outputs =

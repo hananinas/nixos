@@ -36,27 +36,10 @@
         "type": "github"
       }
     },
-    "nvchad-config": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1716051740,
-        "narHash": "sha256-oAnFZ9HoNava/mBgo1PwWdFwKTuAcnlIEsDD/3dKYpM=",
-        "ref": "refs/heads/main",
-        "rev": "74203ed2c6c065ad7cc004edc1bee160cd87b2f6",
-        "revCount": 6,
-        "type": "git",
-        "url": "https://codeberg.org/daniel_chesters/nvchad_config"
-      },
-      "original": {
-        "type": "git",
-        "url": "https://codeberg.org/daniel_chesters/nvchad_config"
-      }
-    },
     "root": {
       "inputs": {
         "home-manager": "home-manager",
-        "nixpkgs": "nixpkgs",
-        "nvchad-config": "nvchad-config"
+        "nixpkgs": "nixpkgs"
       }
     }
   },

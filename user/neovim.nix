@@ -19,7 +19,7 @@
   };
 
   xdg.configFile.nvim = {
-    source = inputs.nvchad-config;
+    source = ./nvchad_custom;
     recursive = true;
   };
 }

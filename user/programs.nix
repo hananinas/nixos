@@ -8,7 +8,6 @@
     python3
     dotnetCorePackages.sdk_8_0_3xx
     jdk22
-    git
     gh
     nodejs_22
     deno
