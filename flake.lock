@@ -1,0 +1,65 @@
+{
+  "nodes": {
+    "home-manager": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1725180166,
+        "narHash": "sha256-fzssXuGR/mCeGbzM1ExaTqDz7QDGta3WA4jJsZyRruo=",
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "rev": "471e3eb0a114265bcd62d11d58ba8d3421ee68eb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1725103162,
+        "narHash": "sha256-Ym04C5+qovuQDYL/rKWSR+WESseQBbNAe5DsXNx5trY=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "12228ff1752d7b7624a54e9c1af4b222b3c1073b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nvchad-config": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1716051740,
+        "narHash": "sha256-oAnFZ9HoNava/mBgo1PwWdFwKTuAcnlIEsDD/3dKYpM=",
+        "ref": "refs/heads/main",
+        "rev": "74203ed2c6c065ad7cc004edc1bee160cd87b2f6",
+        "revCount": 6,
+        "type": "git",
+        "url": "https://codeberg.org/daniel_chesters/nvchad_config"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://codeberg.org/daniel_chesters/nvchad_config"
+      }
+    },
+    "root": {
+      "inputs": {
+        "home-manager": "home-manager",
+        "nixpkgs": "nixpkgs",
+        "nvchad-config": "nvchad-config"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
